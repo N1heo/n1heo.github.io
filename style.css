@@ -1,0 +1,90 @@
+/* hero background image */
+.bgimage {
+    /* height:200vh; */
+    height: 120vh;
+    background: url('images/bck.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color:white ;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 40px;
+    cursor: pointer;
+}
+.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
+    color: #ffffff;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #51a5c7;
+    text-align: center;
+}
+/* text size */
+#number {
+    font-size: 20px;
+    color:black;
+}
+#gmail {
+    font-size: 20px;
+    color:black;
+}
+
+/* spacing on all sections */
+#hobbies {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+#guitar, #sports{
+    margin-top: 0.2rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+/* hobbies section */
+.imageSports {
+    width: 80%;
+    height: 100%;
+    position:relative;
+    right:18%;
+}
+.imageGuitar{
+    width:100;
+    height:100;
+    position: relative;
+    left:25%;
+}
+.sportsText{
+    position:relative;
+    left:20%;
+}
+/* works section */
+.imageSoon{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left:108%;
+}
