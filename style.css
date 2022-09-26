@@ -17,7 +17,7 @@
     text-align: center;
     position: absolute;
     top: 70%;
-    left: 60%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color:white ;
 }
@@ -25,6 +25,7 @@
 /* about section image css */
 .imageAboutPage {
     width: 100%;
+    border-radius: 15px;
 }
 
 /* social media icons styling */
@@ -76,15 +77,35 @@
     height:100;
     position: relative;
     left:25%;
+    border-radius: 1000px;
 }
 .sportsText{
     position:relative;
     left:20%;
 }
+
+@keyframes move {
+    0%   {left:-100%; top:0%;}
+    100% {left:140%; top:0%;}
+}
+
+@keyframes rotate {
+    0% {-webkit-transform: rotate(0deg) skewY(0deg); /* Chrome, Safari, Opera */
+        -moz-transform: rotate(0deg) skewY(0deg); /* Firefox */
+        -ms-transform: rotate(0deg) skewY(0deg); /* Internet Explorer */}
+
+    100%{-webkit-transform: rotate(360deg) skewY(0deg); /*Chrome, Safari, Opera */
+        -moz-transform: rotate(360deg) skewY(0deg); /* Firefox */
+        -ms-transform: rotate(360deg) skewY(0deg); /* Internet Explorer */}
+}
+
 /* works section */
 .imageSoon{
-    width: 100%;
+    width: 55%;
     height: 100%;
     position: relative;
-    left:108%;
+    animation-name: move, rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
 }
