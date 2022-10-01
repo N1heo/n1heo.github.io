@@ -107,5 +107,6 @@
     animation-name: move, rotate;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    overflow: hidden;
     
 }
