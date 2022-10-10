@@ -67,23 +67,20 @@
 }
 /* hobbies section */
 .imageSports {
-    width: 80%;
-    height: 100%;
-    position:relative;
-    right:18%;
+    
+    position: relative;
 }
 .imageGuitar{
     width:100;
     height:100;
     position: relative;
-    left:25%;
     border-radius: 1000px;
 }
 .sportsText{
     position:relative;
-    left:20%;
 }
 
+/* animations */
 @keyframes move {
     0%   {left:-100%; top:0%;}
     100% {left:140%; top:0%;}
