@@ -9,6 +9,3 @@ I've made it using this -
 
 ## How it looks:
 ![sitelooks](https://user-images.githubusercontent.com/96371464/191307510-4695d99c-0a7c-497f-bd40-fcc322dde282.gif)
-
-## What's left
-The thing that is left to add is mobile optimization, you better not open it using your smartphones guys...
