@@ -98,8 +98,8 @@
 
 /* works section */
 .imageSoon{
-    width: 55%;
-    height: 100%;
+    width: 100%;
+    height: auto;
     position: relative;
     animation-name: move, rotate;
     animation-duration: 4s;
@@ -107,6 +107,16 @@
 }
 .soonImg {
     overflow: hidden;
+}
+
+.portal1{
+    position: relative;
+    right:2%;
+}
+
+.portal2{
+    position: relative;
+    left:2%;
 }
 
 /* button styling */

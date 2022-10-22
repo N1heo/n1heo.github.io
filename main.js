@@ -25,10 +25,6 @@ function clickBtn() {
     var element = document.getElementById("button_text");
     element.innerHTML = "Ooops..."
   }
-    
-    // ("#clickbtn").href("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
-//   document.getElementById("score")[0].firstChild.data = "Clicks: " + score;
-
 }
 
 
