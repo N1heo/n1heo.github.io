@@ -22,6 +22,8 @@ function clickBtn() {
   if (score == 20){
     window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
     btn.style.backgroundImage = "url(https://upload.wikimedia.org/wikipedia/ru/thumb/7/78/Trollface.svg/1200px-Trollface.svg.png)";
+    var element = document.getElementById("button_text");
+    element.innerHTML = "Ooops..."
   }
     
     // ("#clickbtn").href("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
