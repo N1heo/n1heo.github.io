@@ -17,18 +17,10 @@
     <section class="bgimage" id="home">
         <div class="container-fluid">
             <div class="row">
-            <!-- button -->
-            <div class="col-lg-5" id="background" onload="loadPage();">
-                <center><br><br><br><br><br><br><br>
-                    <button id="clickbtn" onclick="clickBtn()">Click</button><br><br><br>
-                    <p class="score_text_js" id ="score">Clicks: 0</p>
-                </center>
-            </div>
-            <!-- button -->
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">  <!-- col-lg-12 col-md-12 col-sm-12 col-xs-12 -->
-                <h2 class="hero_title">Hi, I'm Nazar</h2>
-                <p class="hero_desc">I am a young guy, trying to find his way in life...</p>
-            </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">  <!-- col-lg-12 col-md-12 col-sm-12 col-xs-12 -->
+                    <h2 class="hero_title">Hi, I'm Nazar</h2>
+                    <p class="hero_desc">I am a young guy, trying to find his way in life...</p>
+                </div>
             </div>
         </div>
     </section>
@@ -138,6 +130,26 @@
             </div>
         </div>
     </seciton>
+
+    <!-- clicker section -->
+    <section id="clicker">
+        <div class="container mt-4 pt-4">
+            <div class="row mt-4">
+                <!-- button -->
+                <div class="col-lg-6" id="background" onload="loadPage();">
+                    <center>
+                        <button id="clickbtn" onclick="clickBtn()" onclick="color()">Click</button><br><br><br>
+                        <p class="score_text_js" id="score">Clicks: 0</p>
+                    </center>
+                </div>
+                <div class="col-lg-6">
+                    <br><br><br><br>
+                    <p id="button_text">Click 20 times to get a reward!)</p>
+                </div>
+                <!-- button -->
+            </div>
+        </div>
+    </section>
 
     <br/>
     <br/>
