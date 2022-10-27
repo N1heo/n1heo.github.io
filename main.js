@@ -26,8 +26,3 @@ function clickBtn() {
     element.innerHTML = "Ooops..."
   }
 }
-
-
-  
-
-
