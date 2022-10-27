@@ -1,19 +1,8 @@
-// function loadData() {  
-// 	fetch('https://api.waifu.im/random/')
-// 	.then((response) => response.json())
-// 	.then((data) => {
-// 		console.log(data); 
-// 		document.getElementById("data").innerHTML = data.message;
-// 		document.getElementById("image").src = data.source;
-//         console.log(data.source)
-// 	});
-// 	}
-
 function loadData() {  
-    fetch('https://nekos.best/api/v2/waifu')
+    fetch('https://api.capybara-api.xyz/v1/image/random')
     .then(response => response.json())
     .then(json => {
-		document.getElementById("image").src = json.results[0].url;
+		document.getElementById("imageCapy").src = json.storage_url;
     })
     
 }

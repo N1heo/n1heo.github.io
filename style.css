@@ -67,12 +67,13 @@
 }
 /* hobbies section */
 .imageSports {
-    
+    width:100;
+    height:auto;
     position: relative;
 }
 .imageGuitar{
     width:100;
-    height:100;
+    height:auto;
     position: relative;
     border-radius: 1000px;
 }
@@ -111,12 +112,12 @@
 
 .portal1{
     position: relative;
-    right:2%
+    right:5%
 }
 
 .portal2{
     position: relative;
-    left:2%;
+    left:5%;
 }
 
 /* button styling */
@@ -149,4 +150,27 @@
     font-size: 24px;
     font-family: verdana;
     color:rgb(0, 0, 0);
+  }
+
+  /* capybaras section */
+  #imageCapy{
+    width: 100%;
+    height: auto;
+  }
+  #buttonCapy{
+    width: 30%;
+    height: auto;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-color: #093c53;
+    position: relative;
+    left:70%;
+  }
+
+  .frame {
+    width: 100%;
+    height: auto;
+    border: 11px solid #093c53;
+    background: #093c53;
+    margin: auto;
   }
