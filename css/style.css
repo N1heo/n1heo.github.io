@@ -1,11 +1,20 @@
+/* navbar */
+.navbar a {
+    color: white;
+}
+.navbarScroll.navbarDark {
+    background-color: black;
+    opacity:0.5;
+}
+
 /* hero background image */
 .bgimage {
-    /* height:200vh; */
     height: 120vh;
     background: url('../images/bck.jpg');
     background-size:cover;
     position:relative;
 }
+
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
