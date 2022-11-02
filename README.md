@@ -1,8 +1,8 @@
 # This is my portfolio
-__Desktop__, Profile website, based on __HTML__, __CSS__ and __Bootstrap Version 5__.
+__Desktop__, Profile website, based on __HTML__, __CSS__, __JS__ and __Bootstrap Version 5__.
 
-## Working process
-The work was pretty hard, I started off using only __HTML__, but the site was too simple and boring so I found this _guide_ below. After I decided to use the it, I spent my whole day redesigning, photoshopping, adding new features, watching videos etc. 
+## About Optimization
+It is fine, but because of emdedded YouTube video, it is kinda low. I think that fixing that is a little off our level right now.
 
 I've made it using this -
 [guide.](https://www.freecodecamp.org/news/how-to-create-a-portfolio-website-using-html-css-javascript-and-bootstrap/#how-to-make-the-services-section)
