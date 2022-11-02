@@ -173,7 +173,6 @@
     background-size: cover;
     background-color: #093c53;
     position: relative;
-    left:70%;
   }
 
   .frame {
@@ -183,3 +182,11 @@
     background: #093c53;
     margin: auto;
   }
+
+/* video section */
+
+#video{
+    width:100%;
+    height: 400px;
+    position:relative;
+}
