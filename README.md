@@ -9,4 +9,8 @@ I've made it using this -
 [guide.](https://www.freecodecamp.org/news/how-to-create-a-portfolio-website-using-html-css-javascript-and-bootstrap/#how-to-make-the-services-section)
 
 ## How it looks:
-![sitelooks](https://user-images.githubusercontent.com/96371464/191307510-4695d99c-0a7c-497f-bd40-fcc322dde282.gif)
+![sitelooks](https://user-images.githubusercontent.com/96371464/199578461-cc4a6446-4ab0-4d75-b106-bf362e03cbc4.gif)
+
+
+
+
