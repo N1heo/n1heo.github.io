@@ -10,7 +10,7 @@
 /* hero background image */
 .bgimage {
     height: 120vh;
-    background: url('../images/bck.jpg');
+    background: url('../images/bck.webp');
     background-size:cover;
     position:relative;
 }
